@@ -1,0 +1,85 @@
+/* Navbar Styling */
+.navbar{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width:100%;
+  margin: 0 auto;
+  background-color: rgb(22, 21, 65);
+}
+.navbar h1{
+  font-size: 30px;
+  color: white;
+  
+}
+.navbar .navlinks{
+  margin-left: auto;
+}
+.navbar .navlinks button{
+  background-color: rgb(22, 21, 65);
+  border: none;
+  font-size: 20px;
+  padding: 20px;
+  color: white;
+}
+.navbar .navlinks button:hover{
+  cursor: pointer;
+}
+/*create update form*/
+.create-update {
+  max-width: 400px;
+  margin:0 auto;
+  text-align: center;
+
+}
+.create-update label{
+  text-align: left;
+  display: block;
+}
+.create-update h2{
+  font-size: 20px;
+  color: rgba(22, 21, 65);
+  margin-bottom: 30px;
+}
+.create-update input, .create-update textarea{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+
+} 
+.create-update button {
+  background-color: rgb(22, 21, 65);
+  color: white;
+  border: none;
+  border-radius: 0.5em;
+  padding: 7px ;
+  cursor: pointer;
+}
+.create-update button:hover{
+  box-shadow: 0px 5px 10px 0px rgba(22, 21, 65);
+}
+/*home page styling*/
+.home{
+  margin:0 auto;
+  text-align: center;
+}
+.home h2{
+  font-size: 20px;
+  color: rgba(22, 21, 65);
+  margin-bottom: 30px;
+}
+.home .table {
+  width: 100%;
+  border: 10px black;
+  padding: 5px 5px;
+}
+/* .home table,th,td {
+  border: 1px solid;
+} */
+.home .table thead{
+  color: rgba(22, 21, 65);
+  font-size: 20px;
+}
